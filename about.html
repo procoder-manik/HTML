@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<link rel="stylesheet" href="../../bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="../../font/css/all.css">
+
+	<style type="text/css" media="screen">
+		*{
+			margin: 0;
+			padding: 0;
+		}
+		body{
+			background:#1111;
+		}
+		.box input{
+			width: 300px;
+			border-radius: 50px;
+			padding : 5px 35px;
+		}
+
+		
+		#title{font-family: algerian;
+			font-size: 40px;
+		}
+		#title2{
+			font-family: cursive;
+
+		}
+		section#about{
+			
+			height: 500px;
+			background:linear-gradient(to right,#124a,#124a), url(2.jpeg );
+			background-size: cover;
+			background-attachment: fixed;
+			background-repeat: no-repeat;
+			color: #eefc;
+
+			
+		}
+		#aboutme{
+			background-color: transparent;
+		}
+		/* footer part start */
+		.footer4{
+			background-color: #124;
+			height: 250px;
+			border-bottom-left-radius:100vh; 
+			border-bottom-right-radius:100vh;
+			z-index: -1;
+
+
+		}
+		footer .footer3{
+			background:#dde;
+			height: 280px;
+			border-bottom-left-radius:80vh; 
+			border-bottom-right-radius:80vh; 
+			z-index: 1;
+			
+		}
+
+		footer  .footer2{
+			background:#0005;
+			height: 310px;
+			border-bottom-left-radius:60vh; 
+			border-bottom-right-radius:60vh;	
+			z-index: 2;
+			
+		}
+		footer   .footer1{
+			background:#88f8;
+			height:330px;
+			border-bottom-left-radius:51vh; 
+			border-bottom-right-radius:51vh;
+			z-index: 3;
+			
+		}
+
+
+		.p-2 i{
+			font-size: 35px;
+			transition: 0.5s;
+		}
+		.p-2 i:hover{
+			transform: scale(1.5);
+			color:red;
+		}
+
+		
+	</style>
+</head>
+<body >
+	<br>
+	<br>
+	<br>
+	
+
+	<header class="fixed-top">
+		<nav class="navbar navbar-expand-sm bg-dark" id="Home" id="navbar">
+			<!-- Brand -->
+			<a class="navbar-brand" href="#"><span class="text-primary " id="title">M</span><span class="text-danger" id="title">H</span><span  id="title2"> Officials</span></a>
+			
+			<!-- Links -->
+			<ul class="navbar-nav ml-auto ">
+				<li class="nav-item">
+					<a class="nav-link text-white active" href="index.html"><i class="fa fa-home"></i>Home</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link text-white" href="#About"><i class="fa fa-user"></i> About</a>
+				</li>
+				
+				<li class="nav-item">
+					<a class="nav-link text-white" href="service.html"><i class="fa fa-car"></i> Services</a>
+				</li>
+				
+				<!-- Dropdown -->
+				<li class="nav-item dropdown">
+					<a class="nav-link text-white dropdown-toggle" href="#List" id="navbardrop" data-toggle="dropdown">
+						<i class="fa fa-tv"></i> Products
+					</a>
+					<div class="dropdown-menu ">
+						<a class="dropdown-item text-info " href="#Apple">Apple</a>
+						<a class="dropdown-item text-info " href="#HP">Hp</a>
+						<a class="dropdown-item text-info " href="#Dell">Dell</a>
+						<a class="dropdown-item text-info " href="#Asus">Asus</a> 
+						<a class="dropdown-item text-info " href="#Lenovo">Lenovo</a>
+					</div>
+				</li>
+				
+				<li class="nav-item">
+					<a class="nav-link text-white" href="contact.html"><i class="fa fa-phone"></i> Contact</a>
+				</li>
+				
+			</ul>
+			<!-- Search box  -------------->
+			
+				<!-- <nav class="navbar navbar-expand-sm bg-light navbar-light">
+					<form class="form-inline" action="/action_page.php">
+						<input class="form-control mr-sm-2" type="text" placeholder="Search here....">
+						<button class="btn btn-primary" type="submit">Search</button>
+					</form>
+				</nav> -->  
+				
+			</nav>
+			
+		</header>
+
+		<!---------------------  start about      ---------------->
+		
+		<section id="about">
+
+			<div class="container-fluid">
+
+				<h1 class="text-center  text-white p-4" id="About">About Us</h1>
+				<hr class="bg-light w-25 mx-auto">
+				<div class="row p-5 m-1">
+					
+					<div class="col-lg-6 col-md-6 col-12 p-3">
+						<h3 class="text-danger">Why MH Officials?</h3>
+						<p>MH officials is the most popular e-commerce website for buing and selling all types of pc like <q>Dekstop / Leptop</q> on the web.</p>
+						
+					</div>
+					<div class="col-lg-6 col-md-6 col-12 p-3">
+						<h3 class="text-primary"> Our product</h3>
+						<p>In this page, you will know about allmost all <q>Dekstop / Leptop</q> real price. And you  will buy this product easilly.</p>
+						
+					</div>
+					
+				</div>
+			</div>
+
+
+
+
+
+
+
+		</section>
+
+		
+		<!---------------------About developer ---------------->
+
+		<!---------------------Start About Me ---------------->
+		<section id="aboutme" class="  text-dark p-5  ">
+			<div class="  my-5">
+				<h1 class="text-center text-dark  text-capitalize" id="About">About Developer</h1>
+				<hr class="bg-white w-25 mx-auto">
+				<div class="row my-5">
+					<div id="logo" class="col-lg-4 col-md-4 col-12">
+						<img src="../pic/logo/my-logo.jpg" class="img-fluid">
+					</div>
+					<div class="col-lg-5 col-md-5 col-12">
+						<h3 class=" text-primary  text-capitalize  ">Who am I?</h3> 
+						
+						<p >This is Manik Hossain. I am studient. I study at <q>Hajee Mohammad Danesh Science & Technology University,Dinajpur-5200.</q> And I am from <b>Dinajpur.</b> <br>
+						</p> <br> 
+						<h5 class="  text-primary  ">My Works :</h5>
+						<p class="   ">
+							01. Web Developer<br>
+							02. Social Worker<br>
+							03. Good Learner <br>
+							04. Good Trainer<br>
+						</p>
+					</div>
+					<div class="col-lg-3 col-md-3 col-12">
+						<h5 class="   text-primary ">My Skills :</h5>
+						<p class="  ">
+							01. HTML<br>
+							02. CSS<br>
+							03. Bootstrap <br>
+							04. Javascript<br>
+							05. Jquary
+						</p> <br><br>
+						<a class="btn btn-primary" href="#"><i class="fa fa-phone"></i> Contact with me </a>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- End About part -->
+
+
+		<!-- Start footer part -->
+
+
+		<footer>
+			
+			<div class="footer1 ">
+				<div class="footer2">
+					<div class="footer3">
+						<div class="footer4">
+							<div class="footer5">
+								<div class="container text-center" id="Contact">
+									<div class="row   ">
+										<div  class=" mx-auto col-lg-6 col-md-6 col-12">
+											
+											
+											<h4 class="text-white py-4 " >
+												<span id="sologan" class="text-primary ">Be Connected</span>
+												<i class="text-white fa fa-cog fa-spin"></i>  
+												<span id="sologan" class="text-danger">Will Updated</span>
+											</h4>
+											
+											
+											
+											
+											
+											<a class="text-info  p-2" href="https://www.facebook.com/manikhossain.kd.1"><i class="fab fa-facebook-f"></i></a>
+											<a class="text-info p-2" href="#"><i class="fab fa-twitter"></i></a>
+											<a class="text-info p-2" href="#"><i class="fab fa-google-plus-g"></i></a>
+											<a class="text-info p-2" href="#"><i class="fab fa-instagram "></i></a>
+											<a class="text-info p-2" href="#"><i class="fab fa-linkedin-in "></i></a>
+											<a class="text-info p-2" href="#"><i class="fab fa-pinterest-p "></i></a>
+											
+											
+
+											<h5 class="text-white p-5">Copyright &copy.2020-2080
+
+												<!--start Logo -->
+
+												<a class="navbar-brand" href="#"><span class="text-primary "  >M</span><span class="text-danger"  >H</span><span> Officials</span></a><!-- end logo -->
+											.All Right Reserved.</h5>
+											
+											
+										</div>
+									</div>
+								</div>
+								
+								
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<br><br>
+
+		<!-- End footer part -->
+
+		<script src="../../bootstrap/js/jquery-3.5.1.min.js "></script>
+		<script src="../../bootstrap/js/bootstrap.min.js"></script>
+	</body>
+	</html>
